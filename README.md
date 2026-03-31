@@ -1,5 +1,6 @@
 # Neural Cryptanalysis — ML-Based Plaintext–Ciphertext Distinguisher
 
+
 A machine learning pipeline that learns to distinguish reduced-round block ciphers
 from random permutations using differential ciphertext pairs.  Three model
 architectures (MLP, CNN, Siamese) are trained and compared across eleven
