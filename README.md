@@ -95,6 +95,8 @@ meaningless results.  All representations operate on ciphertext bits only.
 | GRAIN | Stream / LFSR+NLFSR | 160 init | 1, 2, 4, 8 … 256 |
 | SNOW | Stream / LFSR | — | 1–8 |
 | ROCCA | AEAD / ARX-sponge | — | 1–8 |
+| SKINNY-128 | Tweakable SPN | 40 | 1-8 |
+| LEA-128 | ARX(NO S-BOX) | 32 | 2,4,6,8,10,12,14,16 |  
 
 SIMON uses a wider round schedule because its slow diffusion means distinguishable
 structure persists at higher round counts than most other ciphers.
